@@ -31,6 +31,13 @@ Datetime picker for bootstrap-material-design. Datetimepicker modal dialog will 
         $('#dateOne').bootstrapMaterialDatePicker({ format:'DD/MM/YYYY', time:false });
     }
 
+    Template.testDate.events({
+        'focus #dateOne': function(e, template){
+            var f = Template.instance().$('#dateOne');
+            f.bootstrapMaterialDatePicker({format:'DD/MM/YYYY', time:false });
+        }
+    })
+
 
 
 ### Parameters
