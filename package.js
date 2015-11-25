@@ -1,7 +1,7 @@
 Package.describe({
   name: 'jayuda:bootstrap-material-datepicker',
   version: '0.1.3',
-  summary: 'Style Datetime picker with Material Design. Datetimepicker modal dialog will appear when onFocus and OnClick',
+  summary: 'Datetime picker with Material Design. Modal dialog will appear when onFocus and OnClick',
   git: 'https://github.com/Jayuda/Meteor-bootstrap-material-datepicker.git',
   documentation: 'README.md'
 });
