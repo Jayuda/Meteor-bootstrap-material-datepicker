@@ -1,5 +1,5 @@
 /* DTP */
-.dtp .modal-dialog { width: 400px; }
+.dtp .modal-dialog { width: 350px; }
 .dtp .modal-body { padding: 0!important; }
 
 .dtp header.dtp-header { background: #689F38; color: #fff; text-align: center; padding: 10px; }
@@ -60,7 +60,7 @@ span[class^=mdi-], [class*=" mdi-"] { position: relative; top: 7px; }
 	-ms-transform-origin: bottom;
 	-webkit-transform-origin: bottom;
 	transform-origin: bottom;
-	z-index: 1;
+	z-index: 9999999;
 }
 
 .dtp .dtp-minute-hand 
